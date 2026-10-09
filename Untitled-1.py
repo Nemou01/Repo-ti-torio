@@ -32,7 +32,7 @@ def pe():
     print(ordem)
 
 import random
-def uw():
+def uwu():
     a =[]
     n = []
     r=[]
@@ -47,7 +47,55 @@ def uw():
     print(len(a),"impares")
     print(r)
 
-uw()
+def ol():
+    x = str(input("Python é oq?"))
+    x = x.upper()
+    print(x,"PYTHON")
+
+def jogo():
+    import random
+    a = random.randint(1,21)
+    i = 0
+    while  i != 5:
+        b = int(input("adivinhe um numeo de 1 a 20 lil bro"))
+        
+        if b < a:
+            print("e maior lil bro")
+        elif b > a:
+            print("Its little")
+        else:
+            print("na mosca")
+            break
+        i+=1
+        print(f"tentativa {i} de 5")
+
+def trinaguloguloso():
+    a = int(input("lado 1 "))
+    b = int(input("lado 2 "))
+    c = int(input("lado 3 "))
+    if a == b and b == c:
+        print("equilatero")
+    elif a == b or b == c or a == c:
+        print("isoceles")
+    else:
+        print("escaleno")
+
+
+def gmail():
+    a = [
+        "lanadelrei@gmail.com",
+        "flavio2026@hotmail.com",
+        "lulalindinhodebunito@gmail.com"
+    ]
+    pe= "@gmail.com"
+    re = [p for p in a if p.endswith(pe)]
+    return print(re)
+print("a")
+#gmail()
+#trinaguloguloso()
+#jogo()
+#ol()
+#uwu()
 #pe()
 #dsa_calcula_imc()
 #quadrado()
